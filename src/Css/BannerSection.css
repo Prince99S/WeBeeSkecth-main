@@ -1,0 +1,38 @@
+.about-ban {
+    background: url("../images/aboutusbanner.jpg");
+    background-size: cover; /* Adjust as needed */
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 40px;
+    text-align: center;
+    align-items: center;
+    height: 70vh;
+}
+
+
+.about-ban-text {
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+@media screen and (max-width:900px) {
+    .about-ban-text {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .about-ban {
+        background:url(../images/aboutusbannermobile.jpg);
+        margin-top: 70px;
+        margin-left:-70px;
+        background-position: start;
+    }
+    .about-ban-text {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
